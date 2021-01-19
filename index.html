@@ -1,0 +1,207 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Hila Mualem</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="stylesheetCV.css">
+    <script src="ScriptCV.js"></script>
+</head>
+<body>
+    <h6 class="right">בס"ד</h6>
+    <h1 class="center" id="nameId">Hila Mualem </h1>
+    <h2 class="subTitle center">Software Engeener </h2>
+
+    <header class="layout" id="headerId">
+
+        <a href="https://www.linkedin.com/in/hila-mualem-b59919194" target="_blank">
+            <i class="fa fa-linkedin headerIcon"></i>
+            <h3 class="details inline" id="linkdeinId">Linkdein</h3>
+        </a>
+
+        <i class="fa fa-mobile headerIcon inline"></i>
+        <h3 class="details inline" id="phoneId">0527619609</h3>
+
+        <a href="mailto:hila619609@gmail.com" class="tooltip">
+            <i class="fa fa-envelope-o headerIcon inline"></i>
+            <h3 class="details inline" id="emailId" value="hila619609@gmail.com">hila619609@gmail.com</h3>
+            <span class="tooltiptext" onclick="copy()" id="emailTooltipId">copy email adress</span>
+        </a>
+
+        <i class="fa fa-map-marker headerIcon inline"></i>
+        <h3 class="details inline" id="cityId">Jerusalem</h3>
+    </header>
+
+
+    <div class="grid-container">
+        <div class="grid-item" id="workExperienceItemId">
+            <div class="title">
+                <i class="fa fa-briefcase grayIcon"></i>
+                <div class="type subTitle inline">Work Experience</div>
+            </div>
+
+
+            <div class="grid-item firstColumn">
+
+                <i class="fa fa-asterisk asterisk"></i>
+                <div class="horizontalLine "></div>
+                <div class="left details years marginBottom">2020</div>
+
+
+                <i class="fa fa-asterisk asterisk"></i>
+                <div class="horizontalLine "></div>
+                <div class="left details years">2019</div>
+
+
+            </div>
+            <div class="grid-item secondColumn ">
+                <div class="details left">WeAreUnity</div>
+                <div class="subTitle left expirience">Backend developer</div>
+                <div class="description left">.Net Core development, using C#, Web API, MongoDB. Volunteering.</div>
+
+                <div class="details left">200Apps</div>
+                <div class="subTitle left expirience">Android developer</div>
+                <div class="description left">Application development, using Kotlin and Java.</div>
+
+                <div class="details left">Temech - Bukharian Community Center</div>
+                <div class="subTitle left expirience">Software developer</div>
+                <div class="description left">Full stack development: website in C# & Angular8, using Entity Framework, primeNG, Typescript, SQL server.</div>
+            </div>
+        </div>
+
+
+        <div class="grid-item" id="technicalSkillsId">
+            <div class=" title">
+                <i class="fa fa-cogs grayIcon"></i>
+                <div class="type subTitle inline">Technical Skills</div>
+            </div>
+
+            <div class="details left">Programming languages:</div>
+            <div class="description left">Python, C, C++, C#, Java, Visual Basic.NET, Assembler </div>
+
+            <div class="details left">Web Languages:</div>
+            <div class="description left">JavaScript, Angular8, MVC, Web API, Asp.NET, Ecma6, Html, Html5 (-Self Learning), JQuery, CSS, Bootstrap. </div>
+
+            <div class="details left">Design and Systems Analysis:</div>
+            <div class="description left">Design patterns, OOP, UML.</div>
+
+            <div class="details left">Development Environment:</div>
+            <div class="description left">Visual Studio, Visual Code, Clion, NetBeans, Eclipse, PyCharm, Jupyter. </div>
+        </div>
+
+
+        <div class="grid-item" id="educationId">
+            <div class=" title">
+                <i class="fa  fa-graduation-cap grayIcon"></i>
+                <div class="type subTitle inline ">Education</div>
+            </div>
+
+
+            <div class="grid-item firstColumn">
+
+                <i class="fa fa-asterisk asterisk"></i>
+                <div class="horizontalLine "></div>
+                <div class="left details years marginBottom">2020</div>
+
+                <i class="fa fa-asterisk asterisk"></i>
+                <div class="horizontalLine "></div>
+                <div class="left details years marginBottom">2019</div>
+
+                <br />
+                <i class="fa fa-asterisk asterisk"></i>
+                <div class="horizontalLine "></div>
+                <div class="left details years">2016-2019</div>
+            </div>
+
+            <div class="grid-item secondColumn ">
+
+                <div class="details left">The Open University</div>
+                <div class="description left">- Computer Science student - B.Sc. </div>
+
+                <div class="details left">ExcellenTeam Programming Bootcamp – Elevation Academy/Start-Up Nation Central, Jerusalem</div>
+                <div class="description left">
+                    Intensive bootcamp, covering industry-level skills and
+                hands-on practice: C, C++, Python, SW design,
+                memory management, concurrent programming,
+                Relational DB, MongoDB, requests and REST,
+                NumPy/Pandas, GIT. Implementing low-level
+                mechanism models, such as: virtual table, memory
+                allocator, task scheduler.
+                </div>
+
+                <div class="details left">Beit Jacob Teachers Institute</div>
+                <div class="description left">
+                    - Degree in Computer Engineering of Maha"t.
+                <br />
+                    - Senior Diploma in General Professions and Teaching Computers in high school.
+                </div>
+            </div>
+        </div>
+
+
+        <div class="grid-item">
+            <div class=" title">
+                <i class="fa fa-user grayIcon"></i>
+                <div class="type subTitle inline ">Personal Skills</div>
+            </div>
+
+            <div class="description left marginBottom">
+                Logical thinking and analytical approach.
+                <br />
+                <br />
+                Ability to diagnose complex systems, with paying attention to details.
+                <br />
+                <br />
+                Autodidactic learning skills in programming and script languages.
+                <br />
+                <br />
+                Strong motivation and willingness to succeed. 
+            </div>
+
+            <br />
+            <button id="btnOpenId" class="left" onclick="openModal()">click here to view my diplomas :)</button>
+        </div>
+
+    </div>
+
+    <div class=" title center">
+        <i class="fa  fa-globe grayIcon"></i>
+        <div class="type subTitle inline ">Languages</div>
+
+        <div class="inline">
+
+            <div class="description left inline">Hebrew </div>
+            <i class="fa fa-circle lang"></i>
+            <i class="fa fa-circle lang"></i>
+            <i class="fa fa-circle lang"></i>
+            <i class="fa fa-circle lang"></i>
+            <i class="fa fa-circle lang"></i>
+            <i class="fa fa-circle lang"></i>
+            <i class="fa fa-circle lang"></i>
+            <i class="fa fa-circle lang"></i>
+
+            <div class="description left inline">English</div>
+            <i class="fa fa-circle lang"></i>
+            <i class="fa fa-circle lang"></i>
+            <i class="fa fa-circle lang"></i>
+            <i class="fa fa-circle lang"></i>
+            <i class="fa fa-circle lang"></i>
+            <i class="fa fa-circle lang"></i>
+            <i class="fa fa-circle lang"></i>
+            <i class="fa fa-circle-o lang"></i>
+
+        </div>
+    </div>
+
+    <div id="modalId" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <img alt="a diploma for teaching" id="TeachersDiplomaId" src="https://lh3.googleusercontent.com/-zU0Bg2VTeFE/YAYf9iBuafI/AAAAAAAABQE/cVG8lVWmdwgS7eMXTC6RTBWIN4oOIcO9ACK8BGAsYHg/s0/2021-01-18.png" class="left">
+            <img alt="a diploma for Excellentem bootcamp" id="bootcampDiplomaId" src="https://lh3.googleusercontent.com/-bXDIlmKAjMA/YAXBLmdneWI/AAAAAAAABPo/YhdwchxHap4Wc6jPBZlC1aQbtr-k5h2UgCK8BGAsYHg/s0/2021-01-18.png" class="left">
+            <img alt="a diploma for Mahat" id="mahatDiplomaId" src="https://lh3.googleusercontent.com/-aSAKygJJ8SE/YAXddKSOJNI/AAAAAAAABZ0/Ml0GlAJn8jA75Fddzye1Nq5_T0DjlMpSgCK8BGAsYHg/s0/2021-01-18.png" class="left">
+        </div>
+    </div>
+
+    <footer class="layout"></footer>
+</body>
+</html>
