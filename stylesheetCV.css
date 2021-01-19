@@ -166,7 +166,7 @@ img {
 
     img:hover,
     img:focus {
-        -webkit-transform: rotate(0deg) scale(2) skew(1deg) translate(0px);
+        -webkit-transform: rotate(0deg) scale(1.7) skew(1deg) translate(0px);
         background-color: white;
         cursor: pointer;
     }
