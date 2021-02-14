@@ -160,8 +160,9 @@ a:link {
 
 img {
     padding: 10px;
-    box-shadow: black 3px 3px 16px;
+    box-shadow: #3939e06e 3px 3px 16px;
     height: 200px;
+    transition: all 0.5s 0s ease-in-out;
 }
 
     img:hover,
